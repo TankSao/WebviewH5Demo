@@ -1,0 +1,92 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.canBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.fun-box {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px 0px;
+	/*background: rgba(0,0,0,.1);*/
+	background: #fff;
+}
+.fun-box .xian{
+	width: 33%;
+}
+.fun-box .pen{
+	width: 33%;
+	float: left;
+}
+.pen span {
+	display: inline-block;
+	width: 30%;
+}
+.xian{
+	width: 27%!important;
+	margin-left: 5%;
+}
+.xian span{
+	display: inline-block;
+	width: 15%;
+	margin-right: 5%;
+}
+.xian span em{
+	width: 100%;
+}
+.fun-box .fun{
+	width: 33%;
+	float: right;
+}
+.fun input{
+	border: none;
+	background: #fff;
+	padding: 10px 15px;
+	margin: 0px 10px;
+	color: #fff;
+	float: right;
+}
+.fun-box>div {
+	float: left;
+}
+.selected-box{
+	position: absolute;
+	right: 60px;
+	top: 60px;
+	width: 60px;
+	height: 100px;
+	background: rgba(0,0,0,.1);
+	padding: 20px;
+}
+.select_line{
+	width: 60px;
+}
+.select_line em{
+	width: 100%;
+}
+/*
+.canBox canvas{
+	width: 100%;
+	height: 100%;
+}*/

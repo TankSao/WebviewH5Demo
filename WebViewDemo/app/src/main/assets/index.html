@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<title>canvas画布系统</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div id="canBox" class="canBox">
+			<!-- 画板 -->
+			
+			<div class="selected-box">
+				<h5 style="margin-bottom: 5px;">已选择:</h5>
+				<div class="select_pen" id="select_pen">
+					<svg class="icon" aria-hidden="true" style="color: blue;font-size: 40px;">
+					  <use xlink:href="#icon-yanliao"></use>
+					</svg>
+				</div>
+				<div class="select_line" id="select_line">
+					<em style="display:inline-block; border: 1px solid #000;"></em>
+				</div>
+			</div>
+			<div class="fun-box">
+				
+				<div class="xian">
+					<!-- 画笔粗细选择 -->
+					<span onclick="line_wid(2, this)">
+						<em style="display:inline-block; border: 1px solid #000;"></em>
+					</span>
+
+					<span onclick="line_wid(4, this)">
+						<em style="display:inline-block; border: 2px solid #000;"></em>
+					</span>
+
+					<span onclick="line_wid(8, this)">
+						<em style="display:inline-block; border: 4px solid #000;">
+							
+						</em>
+					</span>
+
+				</div>
+<div class="pen">
+					<!-- 画笔颜色选择 -->
+				<span onclick="pen_click(0, this)">
+					<svg class="icon" aria-hidden="true" style="color: blue;font-size: 40px;">
+					  <use xlink:href="#icon-yanliao"></use>
+					</svg>
+				</span>
+				<span onclick="pen_click(1, this)">
+					<svg class="icon" aria-hidden="true" style="color: green;font-size: 40px;">
+					  <use xlink:href="#icon-yanliao"></use>
+					</svg>
+				</span>
+				<span onclick="pen_click(2, this)">
+					<svg class="icon" aria-hidden="true" style="color: red;font-size: 40px;">
+					  <use xlink:href="#icon-yanliao"></use>
+					</svg>
+				</span>
+				</div>
+				<div class="fun">
+					<input type="button" value="保存提交" onclick="save_pic()" style="background: #5cb85c;">
+					<input type="button" value="拍照上传" onclick="take_pic()" style="background: #d94600;">
+					<input type="button" value="清除" onclick="clear_pic()" style="background: #337ab7;">
+				</div>
+			</div>
+			<canvas id="can"></canvas>
+		</div>
+	</body>
+	<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/normal.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		//		<div id="top">
+
+		//		</div>
+	</script>
+
+</html>

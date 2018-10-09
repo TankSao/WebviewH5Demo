@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BASE64Encoder.jar/BASE64Encoder.jar.iml" filepath="$PROJECT_DIR$/BASE64Encoder.jar/BASE64Encoder.jar.iml" />
+      <module fileurl="file://G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\BASE64Encoder.jar\BASE64Encoder.jar.iml" filepath="G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\BASE64Encoder.jar\BASE64Encoder.jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewDemo.iml" filepath="$PROJECT_DIR$/WebViewDemo.iml" />
+      <module fileurl="file://G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\WebViewDemo.iml" filepath="G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\WebViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\app\app.iml" filepath="G:\daima\070\demos\0818\html5\WebViewDemo-master\WebViewDemo-master\WebViewDemo\app\app.iml" />
+    </modules>
+  </component>
+</project>
